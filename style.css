@@ -1,0 +1,12 @@
+#a, #b, #c {
+    font-size: 900px;
+    display: inline;
+}
+
+
+
+#index{
+    background-color: #154562;
+    max-height: 1080px;
+    overflow-y: hidden;
+}

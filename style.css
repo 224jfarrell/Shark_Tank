@@ -1,12 +1,40 @@
+*{
+    max-width: 1920px;
+    overflow-x: hidden;
+}
+
 #a, #b, #c {
     font-size: 900px;
     display: inline;
 }
 
-
+body {
+    background-image: radial-gradient(circle at 0, black 0%, #ffcc00 100%);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
 #index{
-    background-color: #154562;
-    max-height: 1080px;
-    overflow-y: hidden;
+    background-color: #981467;
+}
+
+.text-shadowe {
+    text-shadow: -2px 2px #ffcc00, 2px -2px black;
+}
+
+.fade-in {
+    animation-name: fade-in;
+    animation-duration: 1.5s;
+    animation-timing-function: cubic-bezier(0.75, 0.5, 0.25, 1);
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+}
+
+@keyframes fade-in {
+    0% {
+        margin-top: 20%;
+    } 100% {
+        margin-top: 10%;
+    }
 }

@@ -1,29 +1,24 @@
 *{
     max-width: 1920px;
     overflow-x: hidden;
-}
-
-#a, #b, #c {
-    font-size: 900px;
-    display: inline;
+    overflow-y: hidden;
 }
 
 body {
-    background-image: radial-gradient(circle at 0, black 0%, #ffcc00 100%);
-    background-size: cover;
+    background-image: linear-gradient(90deg, #996600 0%, black 33%, black 67%, #996600 100%);
     background-repeat: no-repeat;
 }
 
 #index{
-    background-color: #981467;
+    background-color: #996600;
 }
 
 .text-shadowe {
     text-shadow: -2px 2px #ffcc00, 2px -2px black;
 }
 
-.fade-in {
-    animation-name: fade-in;
+.slide-in {
+    animation-name: slide-in;
     animation-duration: 1.5s;
     animation-timing-function: cubic-bezier(0.75, 0.5, 0.25, 1);
     animation-iteration-count: 1;
@@ -31,10 +26,10 @@ body {
     animation-play-state: running;
 }
 
-@keyframes fade-in {
+@keyframes slide-in {
     0% {
-        margin-top: 20%;
-    } 100% {
         margin-top: 10%;
+    } 100% {
+        margin-top: 5%;
     }
 }

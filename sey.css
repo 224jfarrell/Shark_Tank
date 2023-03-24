@@ -114,6 +114,14 @@
     margin-left: auto;
 }
 
+.ml-5{
+    margin-left: 5%;
+}
+
+.ml-10{
+    margin-left: 10%;
+}
+
 .ml-15{
     margin-left: 15%;
 }

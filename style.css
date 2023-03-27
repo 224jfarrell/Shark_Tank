@@ -42,6 +42,15 @@ body {
     height: 300px;
 }
 
-.ml-11{
-    margin-left: 12.5%;
+.img-o{
+    border-radius: 25px;
+    width:50%
+}
+
+.w-32{
+    width: 32%;
+}
+
+.disc{
+    bottom: 0;
 }

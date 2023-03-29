@@ -18,6 +18,10 @@ body {
     background-color: #99660088;
 }
 
+.b{
+    background: #99660088;
+}
+
 .slide-in {
     animation-name: slide-in;
     animation-duration: 1.5s;
@@ -29,9 +33,9 @@ body {
 
 @keyframes slide-in {
     0% {
-        top: 320px;
+        opacity: 0%;
     } 100% {
-        top: 0px;
+        opacity: 100%;
     }
 }
 
@@ -52,5 +56,9 @@ body {
 }
 
 .disc{
-    bottom: 0;
+    top: 30px;
+}
+
+.mb-6p1{
+    margin-bottom: 6.1%;
 }

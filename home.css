@@ -1,0 +1,4 @@
+body {
+    background-image: linear-gradient(90deg, #00000000 17%, #acacac 17%, #acacac 20%, white 20%, white 80%, #464646 80%, #464646 83%, #00000000 83%), linear-gradient(180deg, #00000088 31.54%, #00000000 31.54%), linear-gradient(90deg, #996600 0%, black 17%, black 83%, #996600 100%);
+    background-repeat: no-repeat;
+}

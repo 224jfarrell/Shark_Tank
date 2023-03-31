@@ -3,6 +3,11 @@
     overflow-x: hidden;
 }
 
+body {
+    background-image: linear-gradient(90deg, #00000000 17%, #acacac 17%, #acacac 20%, white 20%, white 80%, #464646 80%, #464646 83%, #00000000 83%), linear-gradient(90deg, #996600 0%, black 17%, black 83%, #996600 100%);
+    background-repeat: no-repeat;
+}
+
 #index{
     background-color: #996600;
 }
@@ -75,8 +80,8 @@ h1, h2, h3, h4, h5, h6{
     margin-left: 4.7%;
 }
 
-.w-90p65{
-    width: 90.65%;
+.w-90p64{
+    width: 90.64%;
 }
 
 .hyperlink{
@@ -129,4 +134,20 @@ h1, h2, h3, h4, h5, h6{
 
 .mt-8{
     margin-top: 4.44%;
+}
+
+.ml-16p89{
+    margin-left: 16.89%;
+}
+
+.bg{
+    background-color: #ffffff88;
+}
+
+.fs-48{
+    font-size: 48px;
+}
+
+.mr-18p9{
+    margin-right: 18.9%;
 }

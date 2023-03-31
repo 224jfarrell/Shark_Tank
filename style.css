@@ -1,11 +1,14 @@
 *{
     max-width: 1920px;
     overflow-x: hidden;
-    overflow-y: hidden;
 }
 
 #index{
     background-color: #996600;
+}
+
+h1, h2, h3, h4, h5, h6{
+    overflow-y: hidden;
 }
 
 .text-shadowe {

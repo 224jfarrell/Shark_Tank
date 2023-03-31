@@ -51,6 +51,11 @@
     width:10%;
 }
 
+.img-l{
+    border-radius: 25px;
+    width: 30%;
+}
+
 .w-32{
     width: 32%;
 }
@@ -74,11 +79,12 @@
 .hyperlink{
     height: 633px;
     background-color: #00000000;
-    padding-top: 100px
+    padding-top: 100px;
+    transition-duration: .5s;
 }
 
 .hyperlink:hover{
-    transition-duration: 1.5s;
+    transition-duration: .5s;
     background-color: #00000088;
 }
 
@@ -112,4 +118,12 @@
 
 .w-16p9{
     width: 16.9%;
+}
+
+.mt-1{
+    margin-top: 1%;
+}
+
+.mt-8{
+    margin-top: 4.44%;
 }

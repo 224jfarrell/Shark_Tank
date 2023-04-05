@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
 *{
     max-width: 1920px;
     overflow-x: hidden;
@@ -162,4 +164,16 @@ h1, h2, h3, h4, h5, h6{
 
 .h-664x{
     height: 664px;
+}
+
+.h-90{
+    height: 100px
+}
+
+.w-1{
+    width: 5%
+}
+
+.about-us{
+    font-family: 'Roboto Slab', serif;
 }
